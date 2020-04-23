@@ -17,9 +17,9 @@ spring:
       max-file-size: 500000KB
       max-request-size: 500000KB
   datasource: 
-    url: jdbc:postgresql://localhost:5432/user_management
-    username: user_management
-    password: usrmgmt
+    url: jdbc:postgresql://168.62.191.193:5432/user_management
+    username: postgres
+    password: secretPass
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
